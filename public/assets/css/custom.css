@@ -1,0 +1,189 @@
+#add-drug-frm label{
+	font-weight: bold;
+}
+
+.req{
+	color: red;
+}
+
+.price-area{
+	margin-top: 11px;
+}
+
+.action-btns{
+	display: flex!important;
+	justify-content: space-between !important;
+	width: 100%;
+}
+
+.drug-img{
+	width: 55%;
+}
+
+.save-drug-btn{
+	margin-right: 1%;
+	height: 45px;
+}
+
+.flash-alert{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin-left: 20%;
+}
+
+.drug-icon{
+	max-width: 50px;
+	max-width: 50px;
+}
+
+.prsc-img{
+	height: 100px;
+	width: 100px;
+	margin-left: 150px;
+}
+
+.dosage{
+	color: #17449e;
+	font-weight: bold;
+}
+
+.dosage:before {
+    content:"• ";
+}
+
+#p_card_title{
+	font-weight: bold;
+	text-align: center;
+}
+
+div.scroll-bar { 
+    margin:4px, 4px; 
+    padding:4px;  
+	width: 500px; 
+	height: 390px; 
+	overflow-x: hidden; 
+	overflow-y: auto; 
+}
+
+
+div.scroll-bar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:  #e8ebf3;
+}
+
+div.scroll-bar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color:#17449e;
+}
+
+div.scroll-bar::-webkit-scrollbar-thumb
+{
+	background-color:#444857;
+}
+
+/*drugs suggestions scrollbar*/
+.sugg-scroll{
+	margin:4px, 4px; 
+    padding:4px;  
+	width: 500px; 
+	height: 100px; 
+	overflow-x: hidden; 
+	overflow-y: auto; 
+}
+
+.sugg-scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:  #e8ebf3;
+}
+
+.sugg-scroll::-webkit-scrollbar
+{
+	width: 6px;
+	background-color:#17449e;
+}
+
+.sugg-scroll::-webkit-scrollbar-thumb
+{
+	background-color:#444857;
+}
+
+
+.sugg-tab{
+	background-color: #e8f0fe !important;
+	border: 2px solid white;
+	color: black;
+}
+
+.s-row{
+	cursor: pointer;
+}
+
+.close-item{
+	margin-left: 13px !important;
+}
+
+.item-btn{
+	cursor: default!important;
+	margin-top: 10px;
+}
+
+.total-val{
+	font-size: 12px !important;
+}
+
+.item-tab th{
+	font-weight: bold;
+	color: black;
+}
+
+.total-btn{
+	width: 100%;
+	margin-left: 30% !important;
+	font-weight: bold;
+}
+
+#toggle-mob{
+	display: none;
+}
+
+@media screen and (max-width: 411px){
+	p.no-item{
+		margin-left: 20% !important;
+	}
+
+	.left-sidenav{
+		display: none;
+	}
+
+	.dash-title{
+		margin-top: 10% !important;
+	}
+
+	#toggle-mob{
+		display: inline;
+	}
+
+	.cart-options{
+		width: 70% !important;
+		margin-left: 30px !important;
+	}
+
+	.cart-options button{
+		width: 100%;
+		padding: 1px;
+	}
+}
+
+.emails-actions{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn-dwld{
+	margin-bottom: 15px;
+}
