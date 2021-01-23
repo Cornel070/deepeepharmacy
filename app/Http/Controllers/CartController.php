@@ -112,7 +112,7 @@ class CartController extends Controller
     public function handleGatewayCallback()
     {
     	$paymentDetails = Paystack::getPaymentData();
-    	dd($paymentDetails);
+    	// dd($paymentDetails);
 
     	if ($paymentDetails['data']['status'] !== 'success') {
     		session()->flash('payment_fail',true);
